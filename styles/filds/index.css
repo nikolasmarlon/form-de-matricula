@@ -1,0 +1,26 @@
+
+input, textarea, select{
+    appearance: none;
+    width: 100%;
+    border-radius: .5rem;
+    border: 1px solid var(--stroke-default);
+    padding: .75rem 1rem;
+    font: var(--text);
+}
+
+label{
+    font: var(--subtitle);
+    color: var(--text-secondary);
+
+    /* Display block pq label é do tipo inline */
+    display: block;
+    margin-bottom: .25rem;
+}
+
+input:focus, textarea:focus, select:focus{
+    outline: .25rem solid var(--surface-secondary);
+    border: .125rem solid var(--stroke-highlight);
+
+    /* para funcionar a borda no safari */
+    outline-offset: .1px;
+}

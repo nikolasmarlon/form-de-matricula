@@ -1,0 +1,16 @@
+@import url(filds/index.css);
+form{
+    margin-top: 3rem;
+}
+
+fieldset{
+    border: none;
+    
+    display: grid;
+    gap: 1rem;
+}
+
+legend{
+    font: var(--fieldset);
+    margin-bottom: 1.5rem;
+}
