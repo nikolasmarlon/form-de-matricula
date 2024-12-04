@@ -14,3 +14,8 @@ legend{
     font: var(--fieldset);
     margin-bottom: 1.5rem;
 }
+
+/* Quanto tiver um fieldset com um fieldset anterior a ele */
+fieldset + fieldset{
+    margin-top: 3rem;
+}

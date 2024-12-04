@@ -25,7 +25,7 @@
                     Preencha os dados abaixo para matricular seu filho na escola de educação infantil Estrelas do Amanhã.
                 </p>
                 <form method="post" enctype="multipart/form-data" >
-                    <fieldset>
+                    <fieldset class="child-info">
                         <legend>Informações da criança</legend>
 
                         <div class="input-wrapper">
@@ -66,6 +66,41 @@
 
                     </fieldset>
 
+                    <fieldset class="address">
+                        <legend>Endereço residencial</legend>
+                        <div class="input-wrapper">
+                            <label for="cep">CEP</label>
+                            <input required type="text" name="cep" id="cep" placeholder="Digite seu CEP">
+                        </div>
+
+                        <div class="flex">
+                            <div class="input-wrapper flex-2">
+                                <label for="street">Rua</label>
+                                <input required disabled type="text" name="street" id="street" placeholder="Digite o nome da rua">
+                            </div>
+                            <div class="input-wrapper flex-1">
+                                <label for="number">Número</label>
+                                <input required type="number" name="number" id="number" >
+                            </div>                            
+                        </div>
+                        <div class="flex">
+                            <div class="input-wrapper flex-2">
+                                <label for="city">Cidade</label>
+                                <input type="text" name="city" id="city" placeholder="Digite a cidade" disabled>
+                            </div>
+                            <div class="input-wrapper flex-1">
+                                <label for="state">Estado</label>
+                                <input type="text" name="state" id="state"  disabled>
+                            </div>
+
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Informações do responsável</legend>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Opções de matrícula</legend>
+                    </fieldset>
 
                 </form>
             </div>
