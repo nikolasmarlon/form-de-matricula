@@ -97,9 +97,6 @@
                     </fieldset>
                     <fieldset class="guardian">
                         <legend>Informações do responsável</legend>
-                    </fieldset>
-                    <fieldset>
-                        <legend>Opções de matrícula</legend>
                         <div class="input-wrapper">
                             <label for="guardian">Nome do responsável</label>
                             <input id="guardian" name="guardian" type="text" required>
@@ -119,7 +116,27 @@
                             </div>
                         </div>
                     </fieldset>
-
+                    <fieldset>
+                        <legend>Opções de matrícula</legend>
+                        <div class="input-wrapper">
+                            <label >Selecione o turno de estudo</label>
+                            <div class="radio-wrapper">
+                                <div class="radio-inner">
+                                    <div class="radio-image"></div>
+                                    <input type="radio" name="study-shift" value="morning" id="morning">                                    
+                                    <img src="./assets/icons/sun-cloud-02.svg" alt="">
+                                    <label for="morning">Manhã</label>                                   
+                                </div>
+                                <div class="radio-inner">
+                                    <div class="radio-image"></div>
+                                    <input type="radio" name="study-shift" value="evening" id="evening">                                    
+                                    <img src="./assets/icons/sun-02.svg" alt="">
+                                    <label for="evening">Manhã</label>                                   
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </fieldset>
                 </form>
             </div>
         </main>
