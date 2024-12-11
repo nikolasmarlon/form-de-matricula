@@ -1,7 +1,8 @@
 
 
 .dropzone{
-    border: 1px dashed var(--stroke-default);
+    border: 2px dashed transparent;
+    outline: 1px dashed var(--stroke-default);
     border-radius: .25rem;
 
     display: grid;
@@ -28,7 +29,7 @@
 
     /* has (input: focus) verifica se está em foco e aplica o css --- serve para o caso de tab(do teclado ) nao mostrar o elemento selecionado ou em foco */
     &:hover, &:has(input:focus){
-        border-width: 2px;
+        outline-width: 0;
         border-color: var(--stroke-hightlight);
         background-color: var(--surface-secondary);
         
