@@ -29,7 +29,7 @@
     /* has (input: focus) verifica se está em foco e aplica o css --- serve para o caso de tab(do teclado ) nao mostrar o elemento selecionado ou em foco */
     &:hover, &:has(input:focus){
         border-width: 2px;
-        border-color: var(--stroke-highlight);
+        border-color: var(--stroke-hightlight);
         background-color: var(--surface-secondary);
         
         & p {
@@ -37,7 +37,7 @@
         }
 
         & svg path{
-            stroke: var(--stroke-highlight);
+            stroke: var(--stroke-hightlight);
         }
     }
 }
